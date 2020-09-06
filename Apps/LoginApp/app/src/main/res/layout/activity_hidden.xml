@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hiddenactivity">
+
+    <TextView
+        android:id="@+id/congratulationsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/congratulations"
+        android:textColor="@color/gray"
+        android:textSize="50sp"
+        app:fontFamily="@font/bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/clickText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="110dp"
+        android:alpha="0.5"
+        android:text="@string/click"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/light"
+        app:layout_constraintEnd_toStartOf="@+id/numberText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/congratulationsText" />
+
+    <TextView
+        android:id="@+id/timesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:alpha="0.5"
+        android:text="@string/times"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numberText"
+        app:layout_constraintTop_toBottomOf="@+id/congratulationsText" />
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:alpha="0.5"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/bold"
+        app:layout_constraintEnd_toStartOf="@+id/timesText"
+        app:layout_constraintStart_toEndOf="@+id/clickText"
+        app:layout_constraintTop_toBottomOf="@+id/congratulationsText" />
+
+    <Button
+        android:id="@+id/revealButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/button"
+        android:text="@string/reveal"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

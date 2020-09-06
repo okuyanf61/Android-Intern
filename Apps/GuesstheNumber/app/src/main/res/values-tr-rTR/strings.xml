@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MFO Login Uygulaması</string>
+    <string name="welcome">Hoşgeldin!</string>
+    <string name="welcome_msg">Bir zorluk seç</string>
+    <string name="login">Başla</string>
+    <string name="register">5</string>
+    <string name="not_a_member">"Toplam "</string>
+    <string name="are_you_member">"Zaten üye misin? "</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Parola</string>
+    <string name="password_again">Parola Tekrar</string>
+    <string name="reveal">Tekrar Oyna!</string>
+    <string name="congratulations">Tebrikler!</string>
+    <string name="click">"Butona "</string>
+    <string name="times">Toplam</string>
+    <string name="register_successful">Kayıt Başarılı!</string>
+    <string name="email">Sayı</string>
+    <string name="passwords_doesnt_match">Parolalar Eşleşmiyor</string>
+    <string name="fill_blanks">Lütfen bir sayı seçin!</string>
+    <string name="email_error">E-Posta geçerli değil</string>
+    <string name="short_password">Parolanız en az 8 karakterli olmalı.</string>
+    <string name="server_error">Sunucu kaynaklı bir hata oluştu :( Lütfen daha sonra tekrar deneyin.</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="easy">Kolay</string>
+    <string name="medium">Orta</string>
+    <string name="hard">Zor</string>
+    <string name="difficulty_number">1 - 100</string>
+    <string name="guess_the_number">Sayıyı Tahmin Et!</string>
+    <string name="check">Kontrol Et!</string>
+    <string name="chances">" hakkın kaldı"</string>
+    <string name="score">5</string>
+    <string name="tries">denemede buldun!</string>
+    <string name="you_lost">Kaybettin!</string>
+    <string name="number_was">Sayı şuydu</string>
+    <string name="oops">Tüh!</string>
+</resources>

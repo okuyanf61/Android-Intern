@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kelime_card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/textViewIngilizce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="79dp"
+                android:layout_marginLeft="79dp"
+                android:text="Turkey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTurkce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textViewIngilizce"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:text="Türkiye" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

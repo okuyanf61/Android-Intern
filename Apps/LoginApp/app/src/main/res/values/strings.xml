@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MFO Login App</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_msg">Nice to see you again!</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="not_a_member">Not a member? </string>
+    <string name="are_you_member">Are you member? </string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="reveal">Reveal</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="click">Click it </string>
+    <string name="times"> times to reveal the hidden data.</string>
+    <string name="register_successful">Successfully Registered!</string>
+    <string name="passwords_doesnt_match">Passwords Doesn\'t Match!</string>
+    <string name="fill_blanks">Fill the blank spaces!</string>
+    <string name="email_error">E-Mail is not valid</string>
+    <string name="short_password">Password should be at least 8 chars.</string>
+    <string name="server_error">Problem occurred in server :( Please try again later.</string>
+    <string name="logout">Log Out</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Flag Quiz</string>
+    <string name="flag">Flag</string>
+    <string name="quiz">Quiz</string>
+    <string name="start">Start</string>
+    <string name="turkey">Turkey</string>
+    <string name="germany">Germany</string>
+    <string name="spain">Spain</string>
+    <string name="italy">Italy</string>
+    <string name="_3_question">3. Question</string>
+    <string name="flag_of_country">Flag of country</string>
+    <string name="play_again">Play Again!</string>
+    <string name="points">points</string>
+    <string name="_3_correct">3 correct</string>
+    <string name="_2_wrong">2 wrong</string>
+    <string name="_60">60</string>
+    <string name="add_flag">Add Flag</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MFO Login Uygulaması</string>
+    <string name="welcome">Hoşgeldin!</string>
+    <string name="welcome_msg">Seni tekrar görmek güzel!</string>
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="not_a_member">"Üye değil misin? "</string>
+    <string name="are_you_member">"Zaten üye misin? "</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Parola</string>
+    <string name="password_again">Parola Tekrar</string>
+    <string name="reveal">Ortaya Çıkar</string>
+    <string name="congratulations">Tebrikler!</string>
+    <string name="click">"Butona "</string>
+    <string name="times">kez tıklayarak veriyi ortaya çıkar.</string>
+    <string name="register_successful">Kayıt Başarılı!</string>
+    <string name="email">E-Posta</string>
+    <string name="passwords_doesnt_match">Parolalar Eşleşmiyor</string>
+    <string name="fill_blanks">Boş alanları doldurun!</string>
+    <string name="email_error">E-Posta geçerli değil</string>
+    <string name="short_password">Parolanız en az 8 karakterli olmalı.</string>
+    <string name="server_error">Sunucu kaynaklı bir hata oluştu :( Lütfen daha sonra tekrar deneyin.</string>
+    <string name="logout">Çıkış Yap</string>
+</resources>
